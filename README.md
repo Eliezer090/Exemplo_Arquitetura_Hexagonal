@@ -29,6 +29,8 @@
 - Com estas separações descritas acima podemos ter uma aplicação muito mais flexivel e aberta para modificações e inclusões.
 
 ## Como executar o projeto
+- Video de demonstração de como executar
+    - [<img src="https://user-images.githubusercontent.com/36082343/173959034-ac115dd3-1a69-42f9-9ffd-2a5149c19980.png" width="50%">](https://youtu.be/5FVIA9UZ51E "Arquitetura Hexagonal com Poetry e Python")
 - Para poder iniciar é preciso ter instalado as dependências abaixo:
     - [Python](https://www.python.org/)
     - [Pip](https://pip.pypa.io/)
@@ -62,5 +64,4 @@
             - Conteudo:
                 - {"id": 0, "title": "Computador"}
             - http://127.0.0.1:5000/api/post_pedido
-
             
