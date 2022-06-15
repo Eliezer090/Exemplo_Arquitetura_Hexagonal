@@ -6,9 +6,9 @@ from src.domain.interfaces.database.database import DatabaseInterface
 from src.domain.interfaces.pedido.pedido import Pedido
 
 pedidos_db = [
-    {'id': 0, 'title': 'War and peace'},
-    {'id': 1, 'title': 'Clean code'},
-    {'id': 2, 'title': 'Clean Arquitecture'},
+    {'id': 0, 'title': 'Pastel'},
+    {'id': 1, 'title': 'Pizza'},
+    {'id': 2, 'title': 'Sushi'},
 ]
 
 
