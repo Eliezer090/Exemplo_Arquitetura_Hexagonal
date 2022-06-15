@@ -46,6 +46,9 @@
 - Após pode ser executado o comando abaixo para instalar as dependências do projeto(O poetry fará todo o trabalho para nós):
 ######
     poetry install
+- Precisa ser definido também uma variavel global para que o Flask consiga encontrar quem inicia o projeto:
+######
+    export FLASK_APP=src/main.py
 - Após isso pode ser executado o comando abaixo para executar o projeto:
 ######
     poe start
@@ -57,7 +60,7 @@
         - Para a rota abaixo é preciso enviar um json no body da requisição, com o pedido que deseja ser cadastrado:
             - Content-Type: application/json
             - Conteudo:
-                - {'id': 0, 'title': 'Computador'}
+                - {"id": 0, "title": "Computador"}
             - http://127.0.0.1:5000/api/post_pedido
 
             
