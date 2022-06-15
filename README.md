@@ -64,4 +64,15 @@
             - Conteudo:
                 - {"id": 0, "title": "Computador"}
             - http://127.0.0.1:5000/api/post_pedido
-            
+
+# Execução de testes do projeto            
+- Para poder executar os testes está sendo utilizado o [poethepoet](https://github.com/nat-n/poethepoet) que facilita um pouco a minimizar os grandes comandos e repetitivos que precisamos rodar, para visualizar os comandos disponiveis é só executar "poe" no terminal com isso será exibido os comandos disponiveis e uma breve descrição do que cada um faz.
+- Comandos disponiveis hoje:
+    - poe cove_tests
+        - Executar todos os testes do projeto.
+    - poe cove_report
+        - Monta o resumo dos testes e exibe a porcentagem de atendimento de cada arquivo de teste.
+    - poe cove_html
+        - Monta arquivos HTML com base o que o report disponibilizou, fica mais facil de viaulizar qual parte do projeto está e não está atendida pelos testes.
+- Cobertura dos testes:
+    - ![Testes coverage](https://user-images.githubusercontent.com/36082343/173960856-ac6e5a49-744b-4950-aa89-a383085cae54.png) 
