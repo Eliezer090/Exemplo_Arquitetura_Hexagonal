@@ -1,0 +1,49 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = "Example application with arquitecture hexagonal"
+authors = ["Eliézer"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.1.2"
+flask-restx = "^0.5.1"
+dataclasses-json = "^0.5.7"
+Inject = "3.5.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+coverage = "^6.3.3"
+poethepoet = "^0.13.1"
+pytest-cov = "*"
+blue = "0.5.2"
+flake8 = "*"
+flake8-debugger = "*"
+flake8-pytest-style = "*"
+isort = "*"
+mypy = "*"
+pep8-naming = "*"
+pyupgrade = "*"
+bandit = "*"
+pip-audit = "*"
+pytest-mock = "^3.7.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks.cove_tests]
+cmd = "poetry run coverage run -m pytest"
+help = "Run tests your project"
+
+[tool.poe.tasks.cove_report]
+cmd = "poetry run coverage report"
+help = "Reports on the test coverage"
+
+[tool.poe.tasks.cove_html]
+cmd = "poetry run coverage html"
+help = "Generates HTML reports on the test coverage"
+
+[tool.poe.tasks.start]
+cmd = "flask run"
+help = "Starts the application"
