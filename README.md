@@ -42,6 +42,7 @@
 
 ## Explicação da arquitetura hexagonal
 - Foi utilizado a arquitetura hexagonal para desenvolver o projeto, como estudo foi utilizado este [post](https://herbertograca.com/2017/09/14/ports-adapters-architecture/) para entendimento da arquitetura.
+- Encontrado também este [diagrama](https://docs.google.com/drawings/d/1LYCQfbVDcDga5i2bB5Wlwu5_dCBJYfFAIFcgdUgPZY0/edit) que detalha um pouco mais sobre esta arquitetura.
 - No print abaixo tem uma exemplicação de como seria a Arquitetura Hexagonal:<br>
 ![Hexagonal Architecture](https://user-images.githubusercontent.com/36082343/173716095-28cfabae-02aa-4272-ad8f-13ab729c3dbe.png)
 - Toda a aplicação pode ser separada em 3 niveis:
